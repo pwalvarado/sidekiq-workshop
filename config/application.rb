@@ -41,5 +41,6 @@ module SidekiqWorkshop
       g.javascripts false
       g.helper false
       g.fallbacks[:haml] = :erb
+    end
   end
 end
