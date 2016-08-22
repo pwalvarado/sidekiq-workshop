@@ -84,7 +84,7 @@ end
 
 group :test do
   gem 'capybara'
-#  gem 'capybara-webkit'
+  gem 'poltergeist' # instead of a headless WebKit browser
   gem 'database_cleaner'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
