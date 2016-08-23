@@ -25,6 +25,8 @@ gem 'bootstrap3-datetimepicker-rails'
 gem 'sprockets-es6'
 gem 'select2-rails'
 gem 'autonumeric-rails'
+#gem 'adminlte-rails', :git => 'git@github.com:shine60vn/adminlte-rails.git', :tag => 'v2.3.2'
+gem 'rails-assets-adminlte', source: 'https://rails-assets.org'
 
 # Authentication
 gem 'devise'
