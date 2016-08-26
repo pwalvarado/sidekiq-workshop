@@ -26,4 +26,5 @@
 //= require fullcalendar/lang-all
 //= require turbolinks
 //= require adminlte
+//= require jquery-slimscroll
 //= require_tree .
