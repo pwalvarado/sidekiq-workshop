@@ -42,5 +42,7 @@ module SidekiqWorkshop
       g.helper false
       g.fallbacks[:haml] = :erb
     end
+
+    config.paths['config/routes.rb'].concat Dir[Rails.root.join("config/routes/*.rb")]
   end
 end
