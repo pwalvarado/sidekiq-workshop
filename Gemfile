@@ -51,8 +51,8 @@ gem 'redcarpet'
 gem 'paranoia'
 gem 'kaminari'
 gem 'spanish_number'
-gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary'
+# gem 'wicked_pdf'
+# gem 'wkhtmltopdf-binary'
 gem 'airbrake'
 gem 'premailer-rails'
 gem 'nokogiri'
@@ -91,6 +91,5 @@ group :test do
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'launchy'
-  gem 'test_after_commit'
   gem 'timecop'
 end
