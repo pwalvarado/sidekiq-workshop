@@ -57,3 +57,13 @@ Note: If you stop the example application and attempt to restart it, you might g
 
 Send email to users that have pending payments. In dev mode, all mails are stored in letter opener, if you like to check all
 sent mails, go to http://localhost:3000/letter_opener
+
+
+## Contributing Guidelines
+
+Use the following guides for getting things done, programming well, and
+programming in style.
+
+* [Protocol](http://github.com/thoughtbot/guides/blob/master/protocol)
+* [Best Practices](http://github.com/thoughtbot/guides/blob/master/best-practices)
+* [Style](http://github.com/thoughtbot/guides/blob/master/style)
