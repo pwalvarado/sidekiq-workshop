@@ -66,4 +66,4 @@ programming in style.
 
 * [Protocol](http://github.com/thoughtbot/guides/blob/master/protocol)
 * [Best Practices](http://github.com/thoughtbot/guides/blob/master/best-practices)
-* [Style](http://github.com/thoughtbot/guides/blob/master/style)
+* [Style](http://github.com/thoughtbot/guides/blob/master/style), [AirBnB](https://github.com/airbnb/ruby)
