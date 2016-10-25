@@ -4,7 +4,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: postgres
   password:
-  host: db
+  host: localhost #db
   #port: 5432
   #schema_search_path: myapp,sharedapp,public
   #min_messages: notice

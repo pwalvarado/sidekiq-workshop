@@ -12,32 +12,33 @@ Things you may want to cover:
 This guide assume that you have installed docker for easy dev environment
 setup, if you don't like to go with docker, you must have:
 
-   * Postgress
    * Redis
-   * Ruby
    * Rails
+   * Ruby 2.3.1
+   * Rails 5.0
+   * PostgreSQL 9.4+
 
-* Configuration
+## Configuration
 
 `$ docker-compose build`
 
-* Database initialization
+## Database initialization
 
 In order to create the database, run migrations and seed people data, run this command:
 
 `$ docker-compose run app rake db:setup`
 
-* How to run the test suite
+## How to run the test suite
 
 `$ docker-compose run -e "RAILS_ENV=test" app rspec -fd`
 
-* Services (job queues, cache servers, search engines, etc.)
+## Services (job queues, cache servers, search engines, etc.)
 
     Mails are handled by a `sidekiq` queue through ActiveJob, all jobs are
     stored in redis. When you start docker containers, sidekiq and redis
     are started too
 
-* Running the app
+## Running the app
 
 Docker will check the system dependencies, download the dabases images (pg and redis),
 bundle the gemfile and start sidekiq and puma
@@ -53,7 +54,7 @@ Note: If you stop the example application and attempt to restart it, you might g
 `$ docker-compose run web rm /var/www/myapp/tmp/pids/server.pid`
 `$ docker-compose up`
 
-* Feature
+## Features
 
 Send email to users that have pending payments. In dev mode, all mails are stored in letter opener, if you like to check all
 sent mails, go to http://localhost:3000/letter_opener
